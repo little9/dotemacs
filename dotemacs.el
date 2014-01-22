@@ -70,13 +70,13 @@
 
 
 ;; Fonts 
-;;(defun set-font (font-family height)
-;;      (interactive "sFont family: \nnHeight: ")
-;;      (set-face-attribute 'default nil :family font-family :height height)
-;;      (set-fontset-font "fontset-default" 'unicode font-family))
+(defun set-font (font-family height)
+     (interactive "sFont family: \nnHeight: ")
+     (set-face-attribute 'default nil :family font-family :height height)
+     (set-fontset-font "fontset-default" 'unicode font-family))
 
 
-;; (set-font "CosmicSansNeueMono" 160)
+ (set-font "CosmicSansNeueMono" 160)
 
 
 ;; end Fonts
